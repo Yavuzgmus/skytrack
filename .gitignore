@@ -1,0 +1,57 @@
+# ---- C++ / CMake ----
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+/compile_commands.json
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.lib
+*.dll
+*.exe
+
+# ---- vcpkg ----
+vcpkg_installed/
+
+# ---- Veri ve modeller (repoya girmez) ----
+data/
+datasets/
+runs/
+weights/
+*.onnx
+*.pt
+*.pth
+*.torchscript
+*.engine
+
+# ---- Videolar ve büyük medya ----
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# ---- Python (training/) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ---- .NET (api/) ----
+bin/
+obj/
+
+# ---- Node (web/) ----
+node_modules/
+dist/
+
+# ---- Ortam ve editör ----
+.env
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
