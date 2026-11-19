@@ -28,6 +28,19 @@ skytrack/
 └── .github/     # CI workflow'ları
 ```
 
+## Geliştirme ortamı
+
+Proje Windows 11 üzerinde WSL2 + Ubuntu 24.04 ile geliştiriliyor. Kullanılan araç sürümleri:
+
+| Araç | Sürüm |
+| --- | --- |
+| g++ | 13.3.0 |
+| CMake | 3.28.3 |
+| Ninja | 1.11.1 |
+| gdb | 15.1 |
+| clang-format | 18.1.3 |
+| Git | 2.43.0 |
+
 ## Teşekkürler
 
 - İlham kaynağı: [selorito/vehicle-detection-cpp](https://github.com/selorito/vehicle-detection-cpp)
